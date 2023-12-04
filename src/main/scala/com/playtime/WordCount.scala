@@ -8,7 +8,7 @@ import org.apache.kafka.streams.scala.ImplicitConversions._
 import org.apache.kafka.streams.scala._
 import org.apache.kafka.streams.scala.kstream._
 import org.apache.kafka.streams.{KafkaStreams, StreamsConfig}
-import org.slj4j.{ Logger, LoggerFactory }
+import org.slf4j.{ Logger, LoggerFactory }
 
 object WordCount extends App {
   import Serdes._
